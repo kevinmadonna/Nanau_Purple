@@ -9,6 +9,11 @@
 </head>
 <body>
 
+  <?php include('./include/header.php'); ?>
+
+  <?php include('./include/formulaires.php'); ?>
+
+  <?php include('./include/footer.php'); ?>
 
 
 </body>

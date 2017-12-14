@@ -1,4 +1,4 @@
-
+<?php
           <header class="menu">
               <h1>Nanau_purple</h1>
 
@@ -9,7 +9,8 @@
                   <li><a href="Page.tarifs.php">Epouvante-Horreur</a></li>
                   <li><a href="Page.tarifs.php">Fantastique</a></li>
                   <li><a href="Page.tarifs.php">Science-Fiction</a></li>
-                
+
               </ul>
           </header>
           <hr/>
+?>
