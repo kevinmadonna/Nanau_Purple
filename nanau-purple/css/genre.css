@@ -1,6 +1,7 @@
+
 body
 	{
-		text-align: center;
+		text-align: left;
 		margin-top: 30px;
 	}
 
@@ -14,26 +15,13 @@ body
 		margin-right: 125px;
 	}
 
-#film
-	{
-		background: url(../im/fond.jpg) no-repeat;
-	}
-
 .genre
 	{
-		display: inline-block;
-		width: 40%;
+		display: block;
+		width: 80%;
 		border: 2px groove black;
 		border-width: 3px;
 		border-radius: 6px;
 		margin: 20px;
-		margin-top: 50px;
-	}
-
-
-.plus
-	{
-		float: right;
-		margin-right: 5px;
-		margin-bottom: 2px;
+		margin-left: 50px;
 	}
