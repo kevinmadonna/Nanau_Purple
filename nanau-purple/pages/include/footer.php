@@ -1,5 +1,5 @@
 
-<?php
+
 <hr/>
 <footer>
   <div id=" follow">
@@ -22,4 +22,3 @@
 
   </div>
 </footer>
-?>
