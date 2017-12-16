@@ -1,9 +1,21 @@
 
 body
 	{
-		text-align: left;
+		background: url('../im/action.jp') no-repeat;
+		background-size: 100%;
 		margin-top: 30px;
+		text-align: left;
 	}
+
+header
+	{
+		margin-right: 125px;
+		margin-left: 125px;
+		border: 2px groove black;
+		background-color: #999;
+		text-align: center;
+	}
+
 
 #prochainement
 	{

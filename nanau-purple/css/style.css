@@ -2,21 +2,56 @@ body
 	{
 		text-align: center;
 		margin-top: 30px;
+		background-color: #7B68EE;
 	}
+
+header
+	{
+		margin-right: 125px;
+		margin-left: 125px;
+		border: 2px groove black;
+		background-color: #999;
+	}
+
+footer
+	{
+		border: 2px groove black;
+		background-color: #999;
+	}
+
+footer table
+	{
+		margin-left: 45%;
+	}
+
+p
+	{
+		margin-top: 0%;
+	}
+
 
 #prochainement
 	{
+		background-color: #C0C0C0;
+		background-position: center;
 		border: 2px groove black;
 		border-width: 7px;
 		border-radius: 6px;
 		margin-top: 50px;
 		margin-left: 125px;
-		margin-right: 125px;
+		margin-right: 125px;	
 	}
 
-#film
+#prochainement div
 	{
-		background: url(../im/fond.jpg) no-repeat;
+		display: inline-block;
+		margin: 3px;
+	}
+
+#prochainement img
+	{
+		width: 150px;
+		float: top;
 	}
 
 .genre
@@ -26,12 +61,17 @@ body
 		border: 2px groove black;
 		border-width: 3px;
 		border-radius: 6px;
-		margin: 20px;
-		margin-top: 50px;
+		margin: 10px;
+		margin-top: 30px;
+		background-color: #999;
 	}
 
+.genre img
+	{
+		width: 120px;
+	}
 
-.plus
+#plus
 	{
 		float: right;
 		margin-right: 5px;
