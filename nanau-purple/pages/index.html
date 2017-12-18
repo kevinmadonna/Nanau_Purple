@@ -7,15 +7,12 @@
   <link rel="stylesheet" href="../css/style.css">
 </head>
 
-<body>
+<body>	
 
-
-	
-
-  <div class="menu">
+   <div class="menu">
       <h1>Nanau_purple</h1>
 
-      <ul>
+     <!-- <ul>
           <li><a href="../action.php">Action</a></li>
           <li><a href="aventure.php">Aventure</a></li>
           <li><a href="drame.php">Drame</a></li>
@@ -23,61 +20,59 @@
           <li><a href=".tarifs.php">Fantastique</a></li>
           <li><a href=".tarifs.php">Science-Fiction</a></li>
 
-      </ul>
-  </div>
-  <hr/>
+      </ul> -->
 
   <!-- formulaire d'inscription -->
 
-  <form action="inscription.php" method="post">
-    <p> inscription </p>
-      <div>
-          <label>pseudo :</label>
-          <input type="text" name="pseudo" />
-      </div>
-      <div>
-          <label>mail :</label>
-          <input type="email" name="mail" />
-      </div>
-      <div>
-          <label>Password :</label>
-          <input type="password" name="password"/>
-      </div>
-      <div>
-          <label>Password :</label>
-          <input type="password" name="password"/>
-      </div>
-      <div>
-          <input type="submit" name="envoyer" value="submit"/>
-      </div>
-  </form>
+  		<form action="inscription.php" method="post" class="identification">
+    		<p> inscription </p>
+      		<div>
+          		<label>Pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Mot de passe :</label>
+          		<input type="password" name="password"/>
+     		</div>
+      		<div>
+          		<label>Confirmer :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="submit"/>
+      		</div>
+  		</form>
 
 
-  <!-- formulaire de connection -->
+  		<!-- formulaire de connection -->
 
-  <form action="connection.php" method="post">
-    <p> connexion </p>
-      <div>
-          <label>pseudo :</label>
-          <input type="text" name="pseudo" />
-      </div>
-      <div>
-          <label>mail :</label>
-          <input type="email" name="mail" />
-      </div>
-      <div>
-          <label>Password :</label>
-          <input type="password" name="password"/>
-      </div>
-      <div>
-          <input type="submit" name="envoyer" value="Valider"/>
-      </div>
-  </form>
+  		<form action="connexion.php" method="post" class="identification">
+    		<p> connexion </p>
+      		<div>
+          		<label>pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Password :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="Valider"/>
+      		</div>
+  		</form>
+  	</div>
 
+  <hr/>
 
-
-
-	<div id="film">
+  <div id="film">
 
 		<div id="prochainement">													<!-- Pour les films à venir -->
 			<h2>Prochainement</h2>
