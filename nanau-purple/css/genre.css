@@ -13,15 +13,13 @@ header
 		margin-left: 125px;
 		border: 2px groove black;
 		background-color: #999;
-		text-align: center;
 	}
 
-img
+#yop img
 	{
+		width: 250px;
 		float: left;
 	}
-
-
 
 #prochainement
 	{
