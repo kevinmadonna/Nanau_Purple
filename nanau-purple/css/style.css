@@ -81,5 +81,8 @@ p
 .identification
 	{
 		width: 300px;
+		display: inline-block;
+		text-align: left;
+		
 	}
 
