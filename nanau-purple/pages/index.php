@@ -9,6 +9,7 @@
 </head>
 
 <body>
+  lourd
   <?php include('./include/db.php'); ?>
 
   <?php include('./include/header.php'); ?>
@@ -17,6 +18,8 @@
   <?php include('./include/formulaires.php'); ?>
 
   <?php include('./include/footer.php'); ?>
+
+
 =======
 	<div class="genre">
 		<h2>Action</h2>
