@@ -4,7 +4,7 @@ body
 		background: url('../im/action.jp') no-repeat;
 		background-size: 100%;
 		margin-top: 30px;
-		text-align: left;
+	
 	}
 
 header
@@ -16,6 +16,10 @@ header
 		text-align: center;
 	}
 
+img
+	{
+		float: left;
+	}
 
 #prochainement
 	{
@@ -36,4 +40,9 @@ header
 		border-radius: 6px;
 		margin: 20px;
 		margin-left: 50px;
+	}
+
+.identification
+	{
+		display: inline-block;
 	}
