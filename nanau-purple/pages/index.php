@@ -9,16 +9,7 @@
 
 <body>
 
-  <?php include('./include/db.php'); ?>
 
-  <?php include('./include/header.php'); ?>
-
-
-  <?php include('./include/formulaires.php'); ?>
-
-  <?php include('./include/footer.php'); ?>
-
-  
 	<header>															<!-- La tête de page qui sera présente partout -->
 		<h1>NANAU-PURPLE</h1>
 
@@ -43,7 +34,49 @@
   </div>
   <hr/>
 
+  <!-- formulaire d'inscription -->
 
+  <form action="inscription.php" method="post">
+      <div>
+          <label>pseudo :</label>
+          <input type="text" name="pseudo" />
+      </div>
+      <div>
+          <label>mail :</label>
+          <input type="email" name="mail" />
+      </div>
+      <div>
+          <label>Password :</label>
+          <input type="password" name="password"/>
+      </div>
+      <div>
+          <input type="submit" name="envoyer" value="submit"/>
+      </div>
+  </form>
+
+
+  <!-- formulaire de connection -->
+
+  <form action="connection.php" method="post">
+      <div>
+          <label>pseudo :</label>
+          <input type="text" name="pseudo" />
+      </div>
+      <div>
+          <label>mail :</label>
+          <input type="email" name="mail" />
+      </div>
+      <div>
+          <label>Password :</label>
+          <input type="password" name="password"/>
+      </div>
+      <div>
+          <input type="submit" name="envoyer" value="submit"/>
+      </div>
+  </form>
+
+
+  
 
 	<div id="film">
 
