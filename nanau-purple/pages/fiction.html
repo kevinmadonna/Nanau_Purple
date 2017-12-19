@@ -5,6 +5,7 @@
   <title>Films de sciences-fiction</title>
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/style.css">
+<!--  <link rel="stylesheet" href="../css/genre.css">-->
   <script src="../js/script.js"></script>
 </head>
 
@@ -12,10 +13,67 @@
 
 	<header>
 		<h1>NANAU-PURPLE</h1>
-		<input type="button" name="connexion" value="Connexion" />
-		<input type="button" name="inscription" value="Inscription">
-	</header>
+    <div class="recherche_p">
 
+      <form action="/search" id="searchthis" method="get">
+        <input id="search" name="q" type="text" placeholder="Rechercher" />
+        <input id="search-btn" type="submit" value="Rechercher" />
+      </form>
+    </div>
+
+
+  <!-- formulaire d'inscription -->
+
+      <form action="inscription.php" method="post" class="identification">
+        <p id="inco"> inscription </p>
+          <div>
+              <label>Pseudo :</label>
+              <input type="text" name="pseudo" />
+          </div>
+          <div>
+              <label>mail :</label>
+              <input type="email" name="mail" />
+          </div>
+          <div>
+              <label>Mot de passe :</label>
+              <input type="password" name="password"/>
+        </div>
+          <div>
+              <label>Confirmer :</label>
+              <input type="password" name="password"/>
+          </div>
+          <div>
+              <input type="submit" name="envoyer" value="submit"/>
+          </div>
+      </form>
+
+
+      <!-- formulaire de connection -->
+
+      <form action="connexion.php" method="post" class="identification">
+        <p id="inco"> connexion </p>
+          <div>
+              <label>pseudo :</label>
+              <input type="text" name="pseudo" />
+          </div>
+          <div>
+              <label>mail :</label>
+              <input type="email" name="mail" />
+          </div>
+          <div>
+              <label>Password :</label>
+              <input type="password" name="password"/>
+          </div>
+          <div>
+              <input type="submit" name="envoyer" value="Valider"/>
+          </div>
+      </form>
+    </header>
+
+  <hr/>
+
+  <h1> Science-Fiction</h1>
+  <hr/>
 
   <div>
     <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
@@ -103,7 +161,6 @@
 
 
 
-  	<script src="../js/script.js"></script>
 
 </body>
 </html>

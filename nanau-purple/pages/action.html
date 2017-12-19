@@ -4,19 +4,27 @@
   <meta charset="UTF-8"/>
   <title>Films d'action</title>
   <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/genre.css">
+  <link rel="stylesheet" href="../css/style.css">
+  <!--<link rel="stylesheet" href="../css/genre.css">-->
   <script src="../js/script.js"></script>
 </head>
 
 <body>
 
-	<div class="menu">
-      <h1>Nanau_purple</h1>
+      <header>
+    		<h1>NANAU-PURPLE</h1>
+        <div class="recherche_p">
+
+          <form action="/search" id="searchthis" method="get">
+            <input id="search" name="q" type="text" placeholder="Rechercher" />
+            <input id="search-btn" type="submit" value="Rechercher" />
+          </form>
+        </div>
 
   <!-- formulaire d'inscription -->
 
   		<form action="inscription.php" method="post" class="identification">
-    		<p> inscription </p>
+    		<p id="inco"> inscription </p>
       		<div>
           		<label>Pseudo :</label>
           		<input type="text" name="pseudo" />
@@ -42,7 +50,7 @@
   		<!-- formulaire de connection -->
 
   		<form action="connexion.php" method="post" class="identification">
-    		<p> connexion </p>
+    		<p id="inco"> connexion </p>
       		<div>
           		<label>pseudo :</label>
           		<input type="text" name="pseudo" />
@@ -62,6 +70,10 @@
   	</div>
 
   <hr/>
+</header>
+  <h1> Action</h1>
+  <hr/>
+
 
 <div id="yop">
   <div>
@@ -74,11 +86,13 @@
           Ridley Scott
           <h3>Avec</h3>
          Russell Crowe, Joaquin Phoenixplus
-        <h3> Presse</h3>
+        <h3>Résumé</h3>
 
          Le général romain Maximus est le plus fidèle soutien de l'empereur Marc Aurèle, qu'il a conduit de victoire en victoire avec une bravoure et un dévouement exemplaires. Jaloux du prestige..
       </p>
     </div>
+
+    <hr/>
 
     <div>
       <img src="../im/films/indianajones.jpg" alt="Affiche de indiana Jones" />
@@ -90,12 +104,13 @@
        Steven Spielberg
       <h3>  Avec </h3>
         	Harrison Ford, Sean Connery
-      <h3>  Presse</h3>
+      <h3> Résumé</h3>
         L'archéologue aventurier Indiana Jones se retrouve aux prises avec un maléfique milliardaire. Aux côtés de la cupide Elsa et de son père, il part à la recherche du Graal.
 
       </p>
   </div>
 
+  <hr/>
 
   <div>
     <img src="../im/films/thedarkknightrises.jpg" alt="Affiche de Batman" />
@@ -108,7 +123,7 @@
       Christopher Nolan
       <h3> Avec </h3>
       Christian Bale, Gary Oldman
-      <h3> Presse </h3>
+      <h3> Résumé </h3>
       Il y a huit ans, Batman a disparu dans la nuit : lui qui était un héros est alors devenu un fugitif.
 S'accusant de la mort du procureur-adjoint Harvey Dent, le Chevalier Noir a tout sacrifié au nom de ce que le commissaire Gordon et lui-même considéraient être une noble cause.
 Et leurs actions conjointes se sont avérées efficaces pour un temps puisque la criminalité a été éradiquée à Gotham City grâce à l'arsenal de lois répressif initié par Dent.
@@ -118,6 +133,8 @@ Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le cas
 
     </p>
   </div>
+
+<hr/>
 
   <div>
     <img src="../im/films/matrix.jpg" alt="Affiche de Matrix" />
@@ -129,12 +146,14 @@ Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le cas
       Lana Wachowski, Lilly Wachowski
       <h3> Avec  </h3>
       Keanu Reeves, Laurence Fishburne
-      <h3> Presse </h3>
+      <h3> Résumé </h3>
       Programmeur anonyme, Thomas Anderson est aussi l'un des pirates les plus recherchés du cyber-space. Il est contacté par un certain Morpheus.
      Ensemble, ils se lancent dans une lutte sans retour contre la Matrice et ses terribles agents...
 
     </p>
   </div>
+
+  <hr/>
 
   <div>
     <img src="../im/films/scarface.jpg" alt="Affiche de Burn Out" />
@@ -146,12 +165,13 @@ Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le cas
       Brian de palma
       <h3> Avec  </h3>
       Al Pacino, Michelle Pfeiffer
-      <h3> Presse  </h3>
+      <h3> Résumé  </h3>
       En 1980, Tony Montana bénéficie d'une amnistie du gouvernement cubain pour retourner en Floride. Ambitieux et sans scrupules, il élabore un plan pour éliminer un caïd de la pègre et prendre la place qu'il occupait sur le marché de la drogue.
     </p>
   </div>
 </div>
 
+<br/>
 
   	<footer>
   		<h2>Suivez-nous</h2>
@@ -166,7 +186,6 @@ Pourtant, même si ce dernier est prêt à endosser de nouveau la cape et le cas
 
 
 
-  	<script src="../js/script.js"></script>
 
 </body>
 </html>

@@ -5,6 +5,7 @@
   <title>films fantastique</title>
   <link rel="stylesheet" href="../css/reset.css">
   <link rel="stylesheet" href="../css/style.css">
+  <!--<link rel="stylesheet" href="../css/genre.css">-->
   <script src="../js/script.js"></script>
 </head>
 
@@ -12,9 +13,67 @@
 
 	<header>
 		<h1>NANAU-PURPLE</h1>
-		<input type="button" name="connexion" value="Connexion" />
-		<input type="button" name="inscription" value="Inscription">
-	</header>
+    <div class="recherche_p">
+
+      <form action="/search" id="searchthis" method="get">
+        <input id="search" name="q" type="text" placeholder="Rechercher" />
+        <input id="search-btn" type="submit" value="Rechercher" />
+      </form>
+    </div>
+
+
+  <!-- formulaire d'inscription -->
+
+  		<form action="inscription.php" method="post" class="identification">
+    		<p id="inco"> inscription </p>
+      		<div>
+          		<label>Pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Mot de passe :</label>
+          		<input type="password" name="password"/>
+     		</div>
+      		<div>
+          		<label>Confirmer :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="submit"/>
+      		</div>
+  		</form>
+
+
+  		<!-- formulaire de connection -->
+
+  		<form action="connexion.php" method="post" class="identification">
+    		<p id="inco"> connexion </p>
+      		<div>
+          		<label>pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Password :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="Valider"/>
+      		</div>
+  		</form>
+  	</header>
+
+  <hr/>
+
+  <h1> Fantastique</h1>
+  <hr/>
 
   <div>
     <img src="../im/films/ligneverte.jpg" alt="Affiche de Burn Out" />
@@ -26,7 +85,7 @@
         	Frank Darabont
         <h3>  Avec </h3>
         Tom Hanks, Michael Clarke Duncanplus
-        <h3>  Presse 	</h3>
+        <h3>  Résumé 	</h3>
 
           Paul Edgecomb, Gardien-chef du pénitencier de Cold Mountain en 1935, était chargé de veiller au bon déroulement des exécutions capitales.
           Parmi les prisonniers se trouvait un colosse du nom de John Coffey...
@@ -45,7 +104,7 @@
     <h3>  Avec </h3>
       	Ryûnosuke Kamiki, Mone Kamishiraishiplus
 
-    <h3>  Presse 	</h3>
+    <h3> Résumé 	</h3>
 
       Mitsuha, adolescente coincée dans une famille traditionnelle, rêve de quitter ses montagnes natales pour découvrir la vie trépidante de Tokyo.
        Elle est loin d’imaginer pouvoir vivre l’aventure urbaine dans la peau de… Taki, un jeune lycéen vivant à Tokyo,
@@ -55,30 +114,32 @@
   </div>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/lesenfantsloups.jpg" alt="Affiche de Burn Out" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2>  Les Enfants Loups, Ame & Yuki </h2>
+      <h3>Date de sortie   </h3>
+      29 août 2012 (1h57min)
+      <h3> Réalisateur </h3>
+       	Mamoru Hosoda
+      <h3>Avec  </h3>
+       	Kumiko Aso, Megumi Hayashibara
+      <h3> Résumé</h3>
+      Hana et ses deux enfants, Ame et Yuki, vivent discrètement dans un coin tranquille de la ville. Leur vie est simple et joyeuse, mais ils cachent un secret : leur père est un homme-loup. Quand celui-ci disparaît brutalement, Hana décide de quitter la ville pour élever ses enfants...
     </p>
   </div>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/swordartmovie.jpg" alt="Affiche de Burn Out" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2>Sword Art Online Movie  </h2>
+      <h3>Date de sortie  </h3>
+      17 mai 2017 (2h0min)
+      <h3>Réalisateur  </h3>
+       	Tomohiko Itō
+      <h3>  Avec</h3>
+       	Ryan Bartley, Christine Marie Cabanos
+      <h3> Résumé </h3>
+      En l'an 2026, deux ans après avoir été libérés de S.A.O, Kazuto et ses amis survivants profitent enfin de jours paisibles. Récemment, la réalité augmentée est devenue possible grâce à l'Augma, et avec cette mode vient son lot de modifications du quotidien.
     </p>
   </div>
 
@@ -97,8 +158,6 @@
   	</footer>
 
 
-
-  	<script src="../js/script.js"></script>
 
 </body>
 </html>

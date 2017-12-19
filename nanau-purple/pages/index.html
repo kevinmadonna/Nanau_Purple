@@ -12,6 +12,16 @@
    <header>
       <h1>Nanau_purple</h1>
 
+      <div class="recherche_p">
+
+        <form action="/search" id="searchthis" method="get">
+          <input id="search" name="q" type="text" placeholder="Rechercher" />
+          <input id="search-btn" type="submit" value="Rechercher" />
+        </form>
+
+      </div>
+
+
      <!-- <ul>
           <li><a href="../action.php">Action</a></li>
           <li><a href="aventure.php">Aventure</a></li>
@@ -25,7 +35,7 @@
   <!-- formulaire d'inscription -->
 
   		<form action="inscription.php" method="post" class="identification">
-    		<p> inscription </p>
+    		<p id="inco"> inscription </p>
       		<div>
           		<label>Pseudo :</label>
           		<input type="text" name="pseudo" />
@@ -51,7 +61,7 @@
   		<!-- formulaire de connection -->
 
   		<form action="connexion.php" method="post" class="identification">
-    		<p> connexion </p>
+    		<p id="inco"> connexion </p>
       		<div>
           		<label>pseudo :</label>
           		<input type="text" name="pseudo" />
@@ -128,8 +138,8 @@
 		<div class="genre">				<!-- Pour les films d'action -->
 			<h2>Action</h2>
 			<div>
-				<img src="../im/films/.jpg" alt="Affiche de Pirates des caraibes" />
-				<p>Pirates des Caraïbes : La Vengeance de Salazar</p>
+				<a href="action.html"> <img src="../im/films/gladiator.jpg" alt="Affiche de Gladiator" /> </a>
+				<p>Gladiator</p>
 			</div>
 
 			<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
@@ -141,7 +151,7 @@
 		<div class="genre"> 			<!-- Pour les films d'Horreur -->
 			<h2>Epouvante-Horreur</h2>
 			<div>
-				<img src="../im/films/ca.jpg" alt="Affiche de Ca" />
+				<a href="horreur.html"><img src="../im/films/ca.jpg" alt="Affiche de Ca" /> </a>
 				<p>Ca !</p>
 			</div>
 
@@ -156,11 +166,8 @@
 		<div class="genre">				<!-- Pour les films fantastiques -->
 			<h2>Fantastique</h2>
 			<div>
-				<img src="" alt="" />
-				<p>.........................................................
-				.....................................................
-				.........................................................
-			.......................................................</p>
+				<a href="fantastique.html"><img src="../im/films/ligneverte.jpg" alt=" film la ligne verte" /> </a>
+				<p>La ligne verte</p>
 			</div>
 
 			<input type="button" name="fdroite" value="<" />
@@ -173,11 +180,8 @@
 		<div class="genre">				<!-- Pour les films de Science - Fiction -->
 			<h2>Science-Fiction</h2>
 			<div>
-				<img src="" alt="" />
-				<p>.........................................................
-				.....................................................
-				.........................................................
-			.......................................................</p>
+				<a href="fiction.html"> <img src="" alt="" /> </a>
+				<p>...</p>
 			</div>
 
 			<input type="button" name="fdroite" value="<" />
@@ -200,7 +204,5 @@
 	</footer>
 
 
-
-	<script src="../js/script.js"></script>
 </body>
 </html>

@@ -4,7 +4,7 @@
   <meta charset="UTF-8"/>
   <title>Films d'Epouvante-Horreur</title>
   <link rel="stylesheet" href="../css/reset.css">
-  <link rel="stylesheet" href="../css/style.css">
+  <!--<link rel="stylesheet" href="../css/style.css">-->
   <script src="../js/script.js"></script>
 </head>
 
@@ -12,79 +12,143 @@
 
 	<header>
 		<h1>NANAU-PURPLE</h1>
-		<input type="button" name="connexion" value="Connexion" />
-		<input type="button" name="inscription" value="Inscription">
-	</header>
 
+    <div class="recherche_p">
+
+      <form action="/search" id="searchthis" method="get">
+        <input id="search" name="q" type="text" placeholder="Rechercher" />
+        <input id="search-btn" type="submit" value="Rechercher" />
+      </form>
+    </div>
+
+
+
+  <!-- formulaire d'inscription -->
+
+  		<form action="inscription.php" method="post" class="identification">
+    		<p id="inco"> inscription </p>
+      		<div>
+          		<label>Pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Mot de passe :</label>
+          		<input type="password" name="password"/>
+     		</div>
+      		<div>
+          		<label>Confirmer :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="submit"/>
+      		</div>
+  		</form>
+
+
+  		<!-- formulaire de connection -->
+
+  		<form action="connexion.php" method="post" class="identification">
+    		<p id="inco"> connexion </p>
+      		<div>
+          		<label>pseudo :</label>
+          		<input type="text" name="pseudo" />
+      		</div>
+      		<div>
+          		<label>mail :</label>
+          		<input type="email" name="mail" />
+      		</div>
+      		<div>
+          		<label>Password :</label>
+          		<input type="password" name="password"/>
+      		</div>
+      		<div>
+          		<input type="submit" name="envoyer" value="Valider"/>
+      		</div>
+  		</form>
+  	</header>
+
+  <hr/>
+
+  <h1> Epouvante-Horreur</h1>
+  <hr/>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/ca.jpg" alt="Affiche de Ca" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2> Ca </h2>
+      <h3> Date de sortie  </h3>
+      20 septembre 2017 (2h 15min)
+      <h3> Réalisateur </h3>
+      Andy Muschietti
+      <h3> Avec </h3>
+       Bill Skarsgård, Jaeden Lieberher, Finn Wolfhard
+      <h3> Résumé </h3>
+      À Derry, dans le Maine, sept gamins ayant du mal à s'intégrer se sont regroupés au sein du "Club des Ratés". Rejetés par leurs camarades, ils sont les cibles favorites des gros durs de l'école. Ils ont aussi en commun d'avoir éprouvé leur plus grande terreur face à un terrible prédateur métamorphe qu'ils appellent "Ça"…
     </p>
   </div>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/humancentiped.jpg" alt="Affiche de The human Centipede" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2>The Human Centipede </h2>
+      <h3> Date de sortie </h3>
+      13 octobre 2011 (1h 30min)
+      <h3> Réalisateur  </h3>
+       Tom Six
+      <h3> Avec </h3>
+       Akihiro Kitamura, Dieter Laser, Ashley C. Williams
+      <h3> Résumé </h3>
+      Une nuit, deux jeunes américaines en voyage à travers l’Europe, tombent en panne en plein milieu d’une forêt. Par chance, elles découvrent une maison dans laquelle vit un ancien chirurgien allemand, le docteur Heiter.
     </p>
   </div>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/esther.jpg" alt="Affiche de Burn Out" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2> Esther</h2>
+      <h3> Date de sortie </h3>
+      30 décembre 2009 (2h 03min)
+      <h3> Réalisateur </h3>
+      Jaume Collet-Serra
+      <h3> Avec </h3>
+       Vera Farmiga, Peter Sarsgaard, Isabelle Fuhrman
+      <h3> Résumé </h3>
+      Dévastée par la perte de son bébé et ne pouvant en concevoir un autre, Kate Coleman décide avec mari John, d'adopter un autre enfant, Esther, qui va se révéler bien différente de ce qu'ils espéraient...
     </p>
   </div>
 
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/conjuring.jpg" alt="Affiche de Burn Out" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2>Conjuring : Les dossiers Warren </h2>
+      <h3>Date de sortie</h3>
+      21 août 2013 (1h 50min)
+      <h3> Réalisateur </h3>
+      James Wan
+      <h3> Avec </h3>
+       Vera Farmiga, Patrick Wilson, Ron Livingston
+      <h3> Résumé </h3>
+      Avant Amityville, il y avait Harrisville… Conjuring : Les dossiers Warren, raconte l'histoire horrible, mais vraie, d'Ed et Lorraine Warren, enquêteurs paranormaux réputés dans le monde entier, venus en aide à une famille terrorisée par une présence inquiétante dans leur ferme isolée…
     </p>
   </div>
 
   <div>
-    <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" />
+    <img src="../im/films/shining.jpg" alt="Affiche de Burn Out" />
     <p>
-      <h2> </h2>
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
-
-      <h3>  </h3>
+      <h2> Shining</h2>
+      <h3> Date de sortie </h3>
+       16 octobre 1980 (2h 26min)
+      <h3> Réalisateur </h3>
+      Stanley Kubrick
+      <h3> Avec </h3>
+      Jack Nicholson, Shelley Duvall, Danny Lloyd
+      <h3> Résumé </h3>
+      Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le "Shining", est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...
     </p>
   </div>
 
