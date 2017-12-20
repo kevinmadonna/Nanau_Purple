@@ -14,23 +14,20 @@
       <h1>Nanau_purple</h1>
 
       <div class="recherche_p">
-
         <form action="#" id="searchthis" method="get">
           <input id="search-btn" onclick="f1()" type="submit" value="Rechercher" />
         </form>
 <!-- lien au hasard -->
         <form action="#" id="lien" method="get">
-          <a href="#" onClick="LienAuHasard(); return(false)">
-            <input id="lieninput" type="submit" value="Lien aléatoire" />
-          </a>
+          <a href="#" onClick="LienAuHasard(); return(false)"><input id="lieninput" type="submit" value="Lien aléatoire" /></a>
         </form>
       </div>
 
 
   <!-- formulaire d'inscription -->
 
-  		<form action="#" method="post" class="identification">
-    		<p class="inco"> inscription </p>
+  		<form action="#" method="post" name="identification" class="identification" style="display: none;">
+    		<p class="inco"> Inscription </p>
       		<div>
           		<label>Pseudo :</label>
           		<input type="text" name="pseudo"/>
@@ -48,15 +45,15 @@
           		<input type="password" name="password"/>
       		</div>
       		<div>
-          		<input type="submit" name="envoyer" value="submit"/>
+          		<input type="submit" name="envoyer" value="Enregistrer"/>
       		</div>
   		</form>
 
 
   		<!-- formulaire de connection -->
 
-  		<form action="#" method="post" class="identification">
-    		<p class="inco"> connexion </p>
+  		<form action="#" method="post" name="identification" class="identification" style="display: none;">
+    		<p class="inco"> Connexion </p>
       		<div>
           		<label>pseudo :</label>
           		<input type="text" name="pseudo" />
@@ -81,6 +78,8 @@
 
 		<div id="prochainement">													<!-- Pour les films à venir -->
 			<a href="prochainement.html"><h2>Prochainement</h2></a>
+
+			<Marquee>
 			<div>
 				<a href="prochainement.html"> <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" /></a>
 				<p>Burn Out</p>
@@ -115,130 +114,167 @@
 				<a href="prochainement.html"> <img src="../im/films/nuances.jpg" alt="Affiche de Cinquante nuances plus claires" /></a>
 				<p>Cinquante nuances plus claires</p>
 			</div>
-
-
+			</marquee>
 		</div>
 
 
-
+		
 		<div class="genre">				<!-- Pour les films d'action -->
-			<h2>Action</h2>
+			<a href="action.html"><h2>Action</h2></a>
+			<Marquee>
 			<div>
 				<a href="action.html"> <img src="../im/films/gladiator.jpg" alt="Affiche de Gladiator" /> </a>
 				<p>Gladiator</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="action.html"> <img src="../im/films/indianajones.jpg" alt="Affiche de indiana jones" /> </a>
 				<p> Indiana Jones et la Dernière Croisade</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="action.html"> <img src="../im/films/thedarkknightrises.jpg" alt="Affiche de The Dark Knight Rises" /> </a>
 				<p>The Dark Knight Rises</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="action.html"> <img src="../im/films/matrix.jpg" alt="Affiche de Matrix" /> </a>
 				<p> Matrix </p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="action.html"> <img src="../im/films/scarface.jpg" alt="Affiche de Scarface" /> </a>
 				<p>Scarface</p>
 			</div>
+			</Marquee>
+			<br/>
+			<div class="but">
+				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
+				<input type="button" name="fdroite" class="fleche" value=">" />
 
-			<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
-			<input type="button" name="fdroite" class="fleche" value=">" />
-
-			<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
+				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
+			</div>
+			
 		</div>
+	
 
-		<div class="genre"> 			<!-- Pour les films d'Horreur -->
-			<h2>Epouvante-Horreur</h2>
+			<div class="genre"> 			<!-- Pour les films d'Horreur -->
+				<a href="horreur.html"><h2>Epouvante-Horreur</h2></a>
+				<Marquee>
 			<div>
 				<a href="horreur.html"><img src="../im/films/ca.jpg" alt="Affiche de Ca" /> </a>
 				<p>Ca !</p>
-      </div>
-      <div>
-        <a href="horreur.html"><img src="../im/films/humancentiped.jpg" alt="Affiche de The Human Centipede" /> </a>
+      		</div>
+
+      	<div>
+        	<a href="horreur.html"><img src="../im/films/humancentiped.jpg" alt="Affiche de The Human Centipede" /> </a>
 				<p> The Human Centipede </p>
-      </div>
-      <div>
-        <a href="horreur.html"><img src="../im/films/esther.jpg" alt="Affiche de Esther " /> </a>
+      	</div>
+
+      	<div>
+        	<a href="horreur.html"><img src="../im/films/esther.jpg" alt="Affiche de Esther " /> </a>
 				<p> Esther </p>
-      </div>
-      <div>
-        <a href="horreur.html"><img src="../im/films/conjuring.jpg" alt="Affiche de Conjuring : Les dossiers Warren " /> </a>
+     	 </div>
+      
+      	<div>
+        	<a href="horreur.html"><img src="../im/films/conjuring.jpg" alt="Affiche de Conjuring : Les dossiers Warren " /> </a>
 				<p> Conjuring : Les dossiers Warren </p>
-      </div>
-      <div>
-        <a href="horreur.html"><img src="../im/films/shining.jpg" alt="Affiche de Shining " /> </a>
+     	</div>
+      
+      	<div>
+        	<a href="horreur.html"><img src="../im/films/shining.jpg" alt="Affiche de Shining " /> </a>
 				<p> Shining </p>
+		</div>
+		</Marquee>
+			<br/>
+			<div class="but">
+				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
+				<input type="button" name="fdroite" class="fleche" value=">" />
+
+				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 			</div>
-
-			<input type="button" name="fdroite" value="<" />
-			<input type="button" name="fgauche" value=">" />
-
-      <a href="horreur.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
-
+		
 		</div>
 
-
+		
 		<div class="genre">				<!-- Pour les films fantastiques -->
-			<h2>Fantastique</h2>
+			<a href="fantastique.html"><h2>Fantastique</h2></a>
+			<Marquee>
 			<div>
 				<a href="fantastique.html"><img src="../im/films/ligneverte.jpg" alt=" Affiche de la ligne verte" /> </a>
 				<p>La ligne verte</p>
-      </div>
-      <div>
-        <a href="fantastique.html"><img src="../im/films/jumangi.jpg" alt=" Affiche de Jumangi" /> </a>
+      		</div>
+
+      		<div>
+        		<a href="fantastique.html"><img src="../im/films/jumangi.jpg" alt=" Affiche de Jumangi" /> </a>
 				<p> Jumangi </p>
-      </div>
-      <div>
-        <a href="fantastique.html"><img src="../im/films/belle.jpg" alt=" Affiche de la belle et la bête" /> </a>
+      		</div>
+
+      		<div>
+        		<a href="fantastique.html"><img src="../im/films/belle.jpg" alt=" Affiche de la belle et la bête" /> </a>
 				<p> La Belle et la Bête </p>
-      </div>
-      <div>
-        <a href="fantastique.html"><img src="../im/films/pirates.jpg" alt=" Affiche de Pirates des Caraïbes" /> </a>
+      		</div>
+
+      		<div>
+        		<a href="fantastique.html"><img src="../im/films/pirates.jpg" alt=" Affiche de Pirates des Caraïbes" /> </a>
 				<p> Pirates des Carïbes : La vengeance de Salazar </p>
-      </div>
-      <div>
-        <a href="fantastique.html"><img src="../im/films/tour.jpg" alt=" Affiche de la tour sombre" /> </a>
+      		</div>
+
+      		<div>
+        		<a href="fantastique.html"><img src="../im/films/tour.jpg" alt=" Affiche de la tour sombre" /> </a>
 				<p> La tour sombre </p>
 			</div>
+			</Marquee>
+			<br/>
+			<div class="but">
+				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
+				<input type="button" name="fdroite" class="fleche" value=">" />
 
-			<input type="button" name="fdroite" value="<" />
-			<input type="button" name="fgauche" value=">" />
-
-      <a href="fantastique.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
-
+				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
+			</div>
+			
 		</div>
 
+
+		
 		<div class="genre">				<!-- Pour les films de Science - Fiction -->
-			<h2>Science-Fiction</h2>
+			<a href="fiction.html"><h2>Science-Fiction</h2>
+			<Marquee>
 			<div>
 				<a href="fiction.html"> <img src="../im/films/ragnarock.jpg" alt="Affiche de Thor 3" /> </a>
 				<p>Thor : Ragnarock</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="fiction.html"> <img src="../im/films/justice_league.jpg" alt="Affiche de Justice League" /> </a>
 				<p>Justice League</p>
 			</div>
-      <div>
+
+     		<div>
 				<a href="fiction.html"> <img src="../im/films/wonder_woman.jpg" alt="Affiche de Wonder Woman" /> </a>
 				<p>Wonder Woman</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="fiction.html"> <img src="../im/films/singes.jpg" alt="Affiche de la planète des singes" /> </a>
 				<p>La planète des singes</p>
 			</div>
-      <div>
+
+      		<div>
 				<a href="fiction.html"> <img src="../im/films/logan.jpg" alt="Affiche de Logan" /> </a>
 				<p>Logan</p>
 			</div>
+			</marquee>
+		<br/>
+			<div class="but">
+				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
+				<input type="button" name="fdroite" class="fleche" value=">" />
 
-			<input type="button" name="fdroite" value="<" />
-			<input type="button" name="fgauche" value=">" />
+				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
+			</div>
 
-      <a href="fiction.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 		</div>
+	
 
 	</div>
 

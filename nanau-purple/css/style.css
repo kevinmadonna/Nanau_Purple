@@ -2,14 +2,11 @@ body
 	{
 		text-align: center;
 		margin-top: 30px;
-		background: url("../im//films/action.jp") no-repeat 0% 0%;
-		background-size: 100% 100%;
+		background-color: #4682B4;
 	}
 
 header
 	{
-		margin-right: 125px;
-		margin-left: 125px;
 		border: 2px groove black;
 		background-color: #999;
 		text-align: center;
@@ -48,6 +45,7 @@ p
 	{
 		display: inline-block;
 		margin: 3px;
+		text-align: center;
 	}
 
 #prochainement img
@@ -65,7 +63,7 @@ p
 		border-radius: 6px;
 		margin: 10px;
 		margin-top: 30px;
-		background-color: #999;
+		background-color: #4682B4;
 	}
 
 .genre div
@@ -80,7 +78,6 @@ p
 		width: 150px;
 	}
 
-
 #plus
 	{
 		float: right;
@@ -92,8 +89,6 @@ p
 	{
 		width: 300px;
 		display: inline-block;
-		text-align: right;
-
 	}
 
 .inco
@@ -118,3 +113,4 @@ p
 		float: left;
 		vertical-align: middle;
 	}
+
