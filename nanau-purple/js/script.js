@@ -9,7 +9,7 @@ document.getElementById("search-btn").onclick = function f1()
 
 function f1()
     {
-       alert(document.getElementById("search"));
+       alert(document.getElementById("searchthis"));
        //form validation that recalls the page showing with supplied inputs.
     }
 
