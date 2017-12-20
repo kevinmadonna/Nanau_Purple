@@ -68,9 +68,16 @@ p
 		background-color: #999;
 	}
 
+.genre div
+	{
+		display: inline-block;
+		width: 150px;
+		margin-top: 10px;
+	}
+
 .genre img
 	{
-		width: 120px;
+		width: 150px;
 	}
 
 #plus
