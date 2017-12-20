@@ -56,11 +56,17 @@ p
 		text-align: center;
 	}
 
+
 #prochainement img
 	{
 		width: 150px;
 		float: top;
 	}
+
+#prochainement a h2
+    {
+        color : black;
+    }
 
 .genre
 	{
@@ -80,6 +86,11 @@ p
 		width: 150px;
 		margin-top: 10px;
 	}
+
+.genre a h2
+    {
+        color : black;
+    }
 
 .genre img
 	{
@@ -122,3 +133,7 @@ p
 		vertical-align: middle;
 	}
 
+.txt
+{
+
+}
