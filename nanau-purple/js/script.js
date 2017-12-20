@@ -1,6 +1,6 @@
 //alert("Bienvenue sur un site aussi oldschool que stylé !")
 
-
+/*
 
 document.getElementById("search-btn").onclick = function f1()
 {
@@ -13,7 +13,7 @@ function f1()
        //form validation that recalls the page showing with supplied inputs.
     }
 
-
+*/
 
 //bouton lien aléatoire
 
