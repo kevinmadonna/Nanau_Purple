@@ -1,6 +1,6 @@
 //alert("Bienvenue sur un site aussi oldschool que stylé !")
 
-<canvas> </canvas>
+
 
 document.getElementById("search-btn").onclick = function f1()
 {
