@@ -2,32 +2,13 @@
 
 <canvas> </canvas>
 
-<form action="#" method="post" id="search">
-    <div>
-        <label>Nom :</label>
-        <input type="text" name="Nom" />
-    </div>
-    <div>
-        <label>Genre :</label>
-        <input type="text" name="Genre" />
-    </div>
-    <div>
-        <label>Année :</label>
-        <input type="text" name="Année"/>
-  </div>
-    <div>
-        <label>Note :</label>
-        <input type="text" name="Note"/>
-    </div>
-    <div>
-        <label>Réalisateur :</label>
-        <input type="text" name="Réalisateur" />
-    </div>
-    <div>
-        <label>Acteur/Atrice :</label>
-        <input type="text" name="Acteur/Actrices" />
-    </div>
-    <div>
-        <input type="submit" name="Rechercher" value="submit"/>
-    </div>
-</form>
+document.getElementById("search-btn").onclick = function f1()
+{
+  alert("form");
+}
+
+function f1()
+    {
+       alert("f1 called");
+       //form validation that recalls the page showing with supplied inputs.
+    }
