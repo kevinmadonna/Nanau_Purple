@@ -2,15 +2,23 @@ body
 	{
 		text-align: center;
 		margin-top: 30px;
-		background-color: #4682B4;
+		background-color: #191970;
+        color : white;
 	}
 
 header
 	{
 		border: 2px groove black;
 		background-color: #999;
-		text-align: center;
+		text-align: center
 	}
+
+header h1
+    {
+    font-size: 60px;
+    color : blueviolet;
+    font-family: fantasy ;
+    }
 
 footer
 	{
@@ -31,7 +39,7 @@ p
 
 #prochainement
 	{
-		background-color: #C0C0C0;
+		background-color: #483D8B;
 		background-position: center;
 		border: 2px groove black;
 		border-width: 7px;
@@ -63,7 +71,7 @@ p
 		border-radius: 6px;
 		margin: 10px;
 		margin-top: 30px;
-		background-color: #4682B4;
+		background-color: #483D8B;
 	}
 
 .genre div
