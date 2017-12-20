@@ -25,55 +25,21 @@
         <form action="#" id="lien" method="get">
           <a href="#" onClick="LienAuHasard(); return(false)"><input id="lieninput" type="submit" value="Lien aléatoire" /></a>
         </form>
-      </div>
+        <div id="utilisateur-btn">
+        <form id="inscriptionbtn">
 
+            <input id="inscrip-btn" type="submit" value="Inscription" onClick="popupinscription()" />
 
-  <!-- formulaire d'inscription -->
+        </form>
 
-  		<form action="#" method="post" name="identification" class="identification" style="display: none;">
-    		<p class="inco"> Inscription </p>
-      		<div>
-          		<label>Pseudo :</label>
-          		<input type="text" name="pseudo"/>
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Mot de passe :</label>
-          		<input type="password" name="password"/>
-     		</div>
-      		<div>
-          		<label>Confirmer :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="Enregistrer"/>
-      		</div>
-  		</form>
+        <form id="connexionbtn">
 
+            <input id="conn-btn" type="submit" value="Connexion" onClick="popupconnexion()" />
 
-  		<!-- formulaire de connection -->
+        </form>
 
-  		<form action="#" method="post" name="identification" class="identification" style="display: none;">
-    		<p class="inco"> Connexion </p>
-      		<div>
-          		<label>pseudo :</label>
-          		<input type="text" name="pseudo" />
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Password :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="Valider"/>
-      		</div>
-  		</form>
+       </div>
+
   	</header>
 
   <hr/>
