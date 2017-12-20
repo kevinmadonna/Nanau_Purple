@@ -192,7 +192,7 @@
 
 		<div class="genre">				<!-- Pour les films fantastiques -->
 			<h2>Fantastique</h2>
-			<div>
+			<div style= "display:none;">
 				<a href="fantastique.html"><img src="../im/films/ligneverte.jpg" alt=" Affiche de la ligne verte" /> </a>
 				<p>La ligne verte</p>
       </div>
@@ -213,8 +213,10 @@
 				<p>  </p>
 			</div>
 
-			<input type="button" name="fdroite" value="<" />
-			<input type="button" name="fgauche" value=">" />
+      <form onmouseup="stop()" onmouseout="stop()">
+			  <input type="button" name="fdroite" value="<" onmousedown="move(10,0)"/>
+			  <input type="button" name="fgauche" value=">" onmousedown="move(-10,0)"/>
+      </form>
 
       <a href="fantastique.html"><input type="button" name="plus" id="plus" value="Plus de films" /></a>
 
@@ -242,9 +244,10 @@
 				<a href="fiction.html"> <img src="../im/films/.jpg" alt="Affiche de " /> </a>
 				<p>...</p>
 			</div>
-
-			<input type="button" name="fdroite" value="<" />
-			<input type="button" name="fgauche" value=">" />
+      <form onmouseup="stop()" onmouseout="stop()">
+			  <input type="button" name="fdroite" value="<" onmousedown="move(10,0)"/>
+			  <input type="button" name="fgauche" value=">" onmousedown="move(-10,0)"/>
+      </form>
 
       <a href="fiction.html"><input type="button" name="plus" id="plus" value="Plus de films" /></a>
 		</div>
