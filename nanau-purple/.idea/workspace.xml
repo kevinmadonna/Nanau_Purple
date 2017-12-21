@@ -64,7 +64,7 @@
       <file leaf-file-name="fiction.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/fiction.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
+            <state relative-caret-position="2835">
               <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
               <folding />
             </state>
@@ -222,12 +222,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1513739398758</updated>
-      <workItem from="1513739399960" duration="26747000" />
+      <workItem from="1513739399960" duration="27086000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26747000" />
+    <option name="totallyTimeSpent" value="27086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="69" y="-9" width="1860" height="1098" extended-state="6" />
@@ -386,7 +386,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/fiction.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
+        <state relative-caret-position="2835">
           <caret line="135" column="6" lean-forward="false" selection-start-line="135" selection-start-column="6" selection-end-line="135" selection-end-column="6" />
           <folding />
         </state>
