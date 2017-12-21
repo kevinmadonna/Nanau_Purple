@@ -24,52 +24,17 @@
 
 
 
-  <!-- formulaire d'inscription -->
+        <form id="inscriptionbtn">
 
-  		<form action="inscription.php" method="post" class="identification">
-    		<p id="inco"> inscription </p>
-      		<div>
-          		<label>Pseudo :</label>
-          		<input type="text" name="pseudo" />
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Mot de passe :</label>
-          		<input type="password" name="password"/>
-     		</div>
-      		<div>
-          		<label>Confirmer :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="submit"/>
-      		</div>
-  		</form>
+            <input id="inscrip-btn" type="submit" value="Inscription" onClick="popupinscription()" />
 
+        </form>
 
-  		<!-- formulaire de connection -->
+        <form id="connexionbtn">
 
-  		<form action="connexion.php" method="post" class="identification">
-    		<p id="inco"> connexion </p>
-      		<div>
-          		<label>pseudo :</label>
-          		<input type="text" name="pseudo" />
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Password :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="Valider"/>
-      		</div>
-  		</form>
+            <input id="conn-btn" type="submit" value="Connexion" onClick="popupconnexion()" />
+
+        </form>
   	</header>
 
   <hr/>
@@ -160,7 +125,8 @@
 
   <div>
     <img src="../im/films/shining.jpg" alt="Affiche de Burn Out" />
-    <p>
+      <div class="txt">
+          <p>
       <h2> Shining</h2>
       <h3> Date de sortie </h3>
        16 octobre 1980 (2h 26min)
@@ -170,7 +136,8 @@
       Jack Nicholson, Shelley Duvall, Danny Lloyd
       <h3> Résumé </h3>
       Jack Torrance, gardien d'un hôtel fermé l'hiver, sa femme et son fils Danny s'apprêtent à vivre de longs mois de solitude. Danny, qui possède un don de médium, le "Shining", est effrayé à l'idée d'habiter ce lieu, théâtre marqué par de terribles évènements passés...
-    </p>
+          </p>
+      </div>
     <input type="checkbox" name="Déjà vu" class="vu" /> <label for="vu">Déjà vu</label>
   </div>
 </div>

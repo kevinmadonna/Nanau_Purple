@@ -22,52 +22,17 @@
     </div>
 
 
-  <!-- formulaire d'inscription -->
+        <form id="inscriptionbtn">
 
-  		<form action="inscription.php" method="post" class="identification">
-    		<p class="inco"> inscription </p>
-      		<div>
-          		<label>Pseudo :</label>
-          		<input type="text" name="pseudo" />
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Mot de passe :</label>
-          		<input type="password" name="password"/>
-     		</div>
-      		<div>
-          		<label>Confirmer :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="submit"/>
-      		</div>
-  		</form>
+            <input id="inscrip-btn" type="submit" value="Inscription" onClick="popupinscription()" />
 
+        </form>
 
-  		<!-- formulaire de connection -->
+        <form id="connexionbtn">
 
-  		<form action="connexion.php" method="post" class="identification">
-    		<p class="inco"> connexion </p>
-      		<div>
-          		<label>pseudo :</label>
-          		<input type="text" name="pseudo" />
-      		</div>
-      		<div>
-          		<label>mail :</label>
-          		<input type="email" name="mail" />
-      		</div>
-      		<div>
-          		<label>Password :</label>
-          		<input type="password" name="password"/>
-      		</div>
-      		<div>
-          		<input type="submit" name="envoyer" value="Valider"/>
-      		</div>
-  		</form>
+            <input id="conn-btn" type="submit" value="Connexion" onClick="popupconnexion()" />
+
+        </form>
   	</header>
 
   <hr/>
@@ -79,7 +44,7 @@
   <div>
     <img src="../im/films/ligneverte.jpg" alt="Affiche de la ligne verte" />
       <div class="txt">
-    <p>
+              <p>
     <h2>  La Ligne verte</h2>
         <h3>  Date de sortie 	</h3>
           1 mars 2000 (3h9min)
@@ -91,7 +56,7 @@
 
           Paul Edgecomb, Gardien-chef du pénitencier de Cold Mountain en 1935, était chargé de veiller au bon déroulement des exécutions capitales.
           Parmi les prisonniers se trouvait un colosse du nom de John Coffey...
-    </p>
+              </p>
       </div>
     <input type="checkbox" name="Déjà vu" class="vu" /> <label for="vu">Déjà vu</label>
   </div>
