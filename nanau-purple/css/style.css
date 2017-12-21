@@ -134,6 +134,11 @@ p
 		vertical-align: middle;
 	}
 
+#banana p
+	{
+		margin-right: 500px;
+	}
+
 .txt
 	{
 		margin-left: 300px;
