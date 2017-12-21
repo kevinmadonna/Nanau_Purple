@@ -24,11 +24,13 @@ footer
 	{
 		border: 2px groove black;
 		background-color: #999;
+		text-align: center;
 	}
 
 footer table
 	{
-		margin-left: 45%;
+		margin-left: 47%;
+		width: 60px;
 	}
 
 p
@@ -85,7 +87,7 @@ p
 		display: inline-block;
 		width: 150px;
 		margin-top: 10px;
-		text-align: ce
+		text-align: center;
 	}
 
 .genre a h2
