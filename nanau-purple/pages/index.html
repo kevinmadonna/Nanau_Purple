@@ -11,7 +11,7 @@
 <body>
 
    <header>
-      <h1> NANAU-PURPLE</h1>
+      <h1> Naunau_purple</h1>
 <!-- formulaire de recherche -->
       <div class="recherche_p">
         <form id="searchthis">
@@ -25,7 +25,6 @@
           <a href="#" onClick="LienAuHasard(); return(false)"><input id="lieninput" type="submit" value="Lien aléatoire" /></a>
         </form>
         <div id="utilisateur-btn">
-
         <form id="inscriptionbtn">
 
             <input id="inscrip-btn" type="submit" value="Inscription" onClick="popupinscription()" />
@@ -49,7 +48,7 @@
 		<div id="prochainement">										<!-- Pour les films à venir -->
 			<a href="prochainement.html"><h2>Prochainement</h2></a>
 
-			<Marquee class="defil">
+			<Marquee scrollamount="10"; onmouseover="this.stop();" onmouseout="this.start();">
 			<div>
 				<a href="prochainement.html"> <img src="../im/films/burn_out.jpg" alt="Affiche de Burn Out" /></a>
 				<p>Burn Out</p>
@@ -91,7 +90,7 @@
 		
 		<div class="genre">				<!-- Pour les films d'action -->
 			<a href="action.html"><h2>Action</h2></a>
-			<Marquee>
+			<Marquee onmouseover="this.stop();" onmouseout="this.start();">
 			<div>
 				<a href="action.html"> <img src="../im/films/gladiator.jpg" alt="Affiche de Gladiator" /> </a>
 				<p>Gladiator</p>
@@ -119,9 +118,6 @@
 			</Marquee>
 			<br/>
 			<div class="but">
-				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
-				<input type="button" name="fdroite" class="fleche" value=">" />
-
 				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 			</div>
 			
@@ -130,7 +126,7 @@
 
 			<div class="genre"> 			<!-- Pour les films d'Horreur -->
 				<a href="horreur.html"><h2>Epouvante-Horreur</h2></a>
-				<Marquee>
+				<Marquee onmouseover="this.stop();" onmouseout="this.start();">
 			<div>
 				<a href="horreur.html"><img src="../im/films/ca.jpg" alt="Affiche de Ca" /> </a>
 				<p>Ca !</p>
@@ -158,9 +154,6 @@
 		</Marquee>
 			<br/>
 			<div class="but">
-				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
-				<input type="button" name="fdroite" class="fleche" value=">" />
-
 				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 			</div>
 		
@@ -169,7 +162,7 @@
 		
 		<div class="genre">				<!-- Pour les films fantastiques -->
 			<a href="fantastique.html"><h2>Fantastique</h2></a>
-			<Marquee>
+			<Marquee onmouseover="this.stop();" onmouseout="this.start();">
 			<div>
 				<a href="fantastique.html"><img src="../im/films/ligneverte.jpg" alt=" Affiche de la ligne verte" /> </a>
 				<p>La ligne verte</p>
@@ -197,9 +190,6 @@
 			</Marquee>
 			<br/>
 			<div class="but">
-				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
-				<input type="button" name="fdroite" class="fleche" value=">" />
-
 				<a href="action.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 			</div>
 			
@@ -209,7 +199,7 @@
 		
 		<div class="genre">				<!-- Pour les films de Science - Fiction -->
             <a href="fiction.html"><h2>Science - Fiction</h2> </a>
-			<Marquee>
+			<Marquee onmouseover="this.stop();" onmouseout="this.start();">
 			<div>
 				<a href="fiction.html"> <img src="../im/films/ragnarock.jpg" alt="Affiche de Thor 3" /> </a>
 				<p>Thor : Ragnarock</p>
@@ -237,9 +227,6 @@
 			</marquee>
 		<br/>
 			<div class="but">
-				<input type="button" name="fgauche" class="fleche" value="<" />		<!-- Boutons pour défiler vers la gauche ou la droite -->
-				<input type="button" name="fdroite" class="fleche" value=">" />
-
 				<a href="fiction.html"><input type="button" name="plus" class="plus" value="Plus de films" /></a>
 			</div>
 
