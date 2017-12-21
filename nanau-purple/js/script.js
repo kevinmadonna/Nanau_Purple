@@ -61,7 +61,7 @@ function popupinscription()
         var left = (document.body.clientWidth-width)/2;
         var top = (document.body.clientHeight-height)/2;
     }
-    window.open('inscription.html','nscription','menubar=no, scrollbars=no, top='+top+', left='+left+', width='+width+', height='+height+'');
+    window.open('inscription.html','Inscription','menubar=no, scrollbars=no, top='+top+', left='+left+', width='+width+', height='+height+'');
 }
 
 function popupconnexion()
