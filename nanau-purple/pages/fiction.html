@@ -22,52 +22,17 @@
     </div>
 
 
-  <!-- formulaire d'inscription -->
+        <form id="inscriptionbtn">
 
-      <form action="inscription.php" method="post" class="identification">
-        <p class="inco"> inscription </p>
-          <div>
-              <label>Pseudo :</label>
-              <input type="text" name="pseudo" />
-          </div>
-          <div>
-              <label>mail :</label>
-              <input type="email" name="mail" />
-          </div>
-          <div>
-              <label>Mot de passe :</label>
-              <input type="password" name="password"/>
-        </div>
-          <div>
-              <label>Confirmer :</label>
-              <input type="password" name="password"/>
-          </div>
-          <div>
-              <input type="submit" name="envoyer" value="submit"/>
-          </div>
-      </form>
+            <input id="inscrip-btn" type="submit" value="Inscription" onClick="popupinscription()" />
 
+        </form>
 
-      <!-- formulaire de connection -->
+        <form id="connexionbtn">
 
-      <form action="connexion.php" method="post" class="identification">
-        <p class="inco"> connexion </p>
-          <div>
-              <label>pseudo :</label>
-              <input type="text" name="pseudo" />
-          </div>
-          <div>
-              <label>mail :</label>
-              <input type="email" name="mail" />
-          </div>
-          <div>
-              <label>Password :</label>
-              <input type="password" name="password"/>
-          </div>
-          <div>
-              <input type="submit" name="envoyer" value="Valider"/>
-          </div>
-      </form>
+            <input id="conn-btn" type="submit" value="Connexion" onClick="popupconnexion()" />
+
+        </form>
     </header>
 
   <hr/>
