@@ -85,7 +85,7 @@ p
 		display: inline-block;
 		width: 150px;
 		margin-top: 10px;
-		text-align: center;
+		text-align: ce
 	}
 
 .genre a h2
@@ -132,3 +132,7 @@ p
 		vertical-align: middle;
 	}
 
+.txt
+	{
+		margin-left: 300px;
+	}
